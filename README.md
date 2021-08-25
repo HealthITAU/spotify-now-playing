@@ -4,6 +4,8 @@ This is designed to work in Wordpress primarily using PHP.
 If you want to add a WordPress widget to show Now Playing, use the included functions.php file and copy that code to your theme's functions.php.
 If you just want the PHP, use just-the-code.php incuded in this repository.
 
+![alt text](https://github.com/rohangardiner/spotify-now-playing/blob/main/spotify-widget.png?raw=true)
+
 # You will need:
 -A Spotify account (Free or Premium)
 -CPanel or FTP access to your website
