@@ -3,12 +3,13 @@ Add a widget to a Wordpress website to show visitors what you're listening to on
 This is designed to work in Wordpress primarily using PHP.
 If you want to add a WordPress widget to show Now Playing, use the included functions.php file and copy that code to your theme's functions.php.
 If you just want the PHP, use just-the-code.php incuded in this repository.
+Shows the currently playing song name, artist(s), album art, and includes a link to the song.
 
 ![Screenshot](https://github.com/rohangardiner/spotify-now-playing/blob/main/spotify-widget.PNG?raw=true)
 
 # You will need:
--A Spotify account (Free or Premium)
--CPanel or FTP access to your website
+-A Spotify account (Free or Premium);
+-CPanel or FTP access to your website.
 
 # How to use
 1. Go to https://developer.spotify.com/dashboard and log in. Use the Spotify account you want to use to display the song playing
