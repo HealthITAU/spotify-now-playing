@@ -42,3 +42,4 @@ curl_close($ch);
 13. Replace `REFRESH_TOKEN_HERE` with your refresh token from Step 9.
 14. Replace `DEVELOPER_APP_AUTH_HERE` with your encoded ClientID:ClientSecret from Step 11.
 15. Replace `MARKET_HERE` with your Spotify market location, i.e. your country code (Use this page to get available market codes: https://developer.spotify.com/console/get-available-markets/)
+Using the same account as your Developer App, play a song through Spotify. When not playing, the widget diverts to a Paused icon.
