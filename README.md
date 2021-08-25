@@ -35,10 +35,10 @@ var_dump(json_decode($result,true));
 curl_close($ch);
 ```
 
-9. Once run, you will get a dump of JSON code, look for the value next to ```["refresh_token"]=>``` it will be a long string of characters.
+9. Once run, you will get a dump of JSON code, look for the value next to `["refresh_token"]=>` it will be a long string of characters.
 10. Now we need to encode the Client ID and Client Secret. Go to https://www.base64encode.org/ and enter CLIENT_ID:CLIENT_SECRET to be encoded. (eg if your Client ID was abcde12345 and your Client Secret was uvwxyz67890, you would enter abcde12345:uvwxyz67890
 11. Copy the output, it will be a long string of encoded characters.
 12. Now you can copy the code from the other files in this repository - functions.php or just-the-code.php into your Wordpress functions or as PHP code.
-13. Replace REFRESH_TOKEN_HERE with your refresh token from Step 9.
-14. Replace DEVELOPER_APP_AUTH_HERE with your encoded ClientID:ClientSecret from Step 11.
-15. Replace MARKET_HERE with your Spotify market location, i.e. your country code (Use this page to get available market codes: https://developer.spotify.com/console/get-available-markets/)
+13. Replace `REFRESH_TOKEN_HERE` with your refresh token from Step 9.
+14. Replace `DEVELOPER_APP_AUTH_HERE` with your encoded ClientID:ClientSecret from Step 11.
+15. Replace `MARKET_HERE` with your Spotify market location, i.e. your country code (Use this page to get available market codes: https://developer.spotify.com/console/get-available-markets/)
